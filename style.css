@@ -1,37 +1,24 @@
-/* NOMBRE MÁS LLAMATIVO */
-.name {
-  font-size: 42px;
-  font-weight: bold;
+body {
+  background-color: #0f172a;
+  color: #e5e7eb;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  line-height: 1.7;
 }
 
-/* SUBTÍTULO EN AZUL */
-.title-blue {
-  color: #3b82f6;
+/* HERO centrado */
+.hero {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
-/* CONTACTO HORIZONTAL */
-.contact-row {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  font-size: 14px;
-}
-
-/* BOTONES */
-.button-group {
-  margin-top: 20px;
-}
-
-.button-group a {
-  margin: 5px;
-}
-
-/* FONDO GRIS CENTRAL */
+/* CONTENIDO alineado a la izquierda */
 .main-content {
   background-color: #1e293b;
-  padding: 20px;
+  padding: 40px;
   border-radius: 10px;
   margin-top: 20px;
+  text-align: left;
 }
