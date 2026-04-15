@@ -12,7 +12,7 @@ body {
 .hero {
   text-align: center;
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 /* FOTO PERFIL */
@@ -82,11 +82,24 @@ body {
 
 /* CONTENIDO PRINCIPAL (alineado a izquierda) */
 .main-content {
-  background-color: #1e293b;
+  background-color: #e5e7eb;
+  color: #111827;
   padding: 40px;
   border-radius: 10px;
   margin-top: 20px;
   text-align: left;
+}
+
+.main-content h2 {
+  color: #111827;
+}
+
+.main-content p {
+  color: #374151;
+}
+
+.main-content li {
+  color: #374151;
 }
 
 /* TÍTULOS */
@@ -126,4 +139,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 26px;
 }
