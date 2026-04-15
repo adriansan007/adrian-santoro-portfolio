@@ -197,3 +197,8 @@ a:hover {
 .footer-section .button-group {
   text-align: center;
 }
+
+/* FIX: título en sección final */
+.footer-section h2 {
+  color: #f9fafb;
+}
